@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const { schema } = mongoose;
+const { Schema } = mongoose;
 
 const thoughtSchema = new Schema({
     thoughtText: {
